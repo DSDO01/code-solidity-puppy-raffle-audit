@@ -1,0 +1,8 @@
+config:
+  framework: "foundry" 
+  framework_version: "1.8.1" 
+  package_manager: "forge"
+
+tasks:
+  install-dependencies:
+    - forge install
